@@ -30,7 +30,7 @@ warnings.filterwarnings("ignore")
 # ----------------------------------------------------------------------
 # 1. DATA ACQUISITION
 # ----------------------------------------------------------------------
-def load_data(ticker="GC=F", start="2015-01-01", end="2025-06-01",
+def load_data(ticker="GC=F", start="2015-01-01", end="2026-06-05",
               csv_fallback="gold_data.csv"):
     """
     Download historical daily gold prices from Yahoo Finance.
@@ -216,7 +216,7 @@ def main():
     parser = argparse.ArgumentParser(description="GoldCast price predictor")
     parser.add_argument("--ticker", default="GC=F")
     parser.add_argument("--start", default="2015-01-01")
-    parser.add_argument("--end", default="2025-06-01")
+    parser.add_argument("--end", default="2026-06-05")
     parser.add_argument("--outdir", default=".")
     args = parser.parse_args()
 

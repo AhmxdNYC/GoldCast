@@ -34,7 +34,7 @@ falls back to the bundled `gold_data.csv` when offline. It prints model metrics
 and a next-day prediction, and saves two plots to the working directory.
 
 ## Results (test set)
-- MAE: $7.67
-- RMSE: $9.75
-- R²: 0.9951
-- Directional accuracy: 70.4%
+- MAE: $43.42
+- RMSE: $62.98
+- R²: 0.9950
+- Directional accuracy: 41.7%
